@@ -9,7 +9,7 @@ import mongoose from "mongoose";
 import { createNotification } from "../utils/notifications";
 
 const stripeSecretKey =
-  "sk_test_51Oz4veIzvURxPk5bVYn3LDcCl1JD6hTlcYPUBqnd9TM9QLavGScbcwcdpmgLpEk2IsmKfFvbwW1deKSp8ODhFLND00Q3mlZYb5";
+  "stripe_test_key";
 const stripeClient = new stripe(stripeSecretKey);
 
 /**
